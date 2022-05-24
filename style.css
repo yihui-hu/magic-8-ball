@@ -31,6 +31,16 @@ input {
     background-color: rgb(243, 243, 243);
 }
 
+button {
+    font-size: max(1.5vw, 15px);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: max(32vw, 235px);
+    border: none;
+    background-color: black;
+    color: white;
+}
+
 h1 {
     font-size: max(2vw, 20px);
     color: black;
