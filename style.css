@@ -14,7 +14,7 @@ body {
     align-items: center;
     background-color: rgb(255, 255, 255);
     height: 40vh;
-    width: 40vw;
+    width: max(40vw, 300px);
     border-radius: 0.5rem;
     border: 5px solid black;
     box-shadow: 0 4px 0 0 black;
@@ -22,9 +22,9 @@ body {
 
 input {
     font-family: "Helvetica", sans-serif;
-    font-size: 1.5rem;
+    font-size: max(1.5vw, 15px);
     padding: 1rem;
-    width: 30vw;
+    width: max(30vw, 200px);
     text-align: center;
     border: 2.5px solid rgb(208, 208, 208);
     border-radius: 0.5rem;
@@ -32,6 +32,7 @@ input {
 }
 
 h1 {
+    font-size: max(2vw, 20px);
     color: black;
     font-family: "Helvetica", sans-serif;
 }
