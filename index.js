@@ -10,7 +10,7 @@ function getNewAnswer() {
         case 1:
             return 'It is decidedly so.';
         case 2:
-            return 'Reply hazy, please try again.';
+            return 'Reply hazy, try again.';
         case 3:
             return 'Cannot be predicted now.';
         case 4:
