@@ -36,9 +36,20 @@ button {
     padding: 1rem;
     border-radius: 0.5rem;
     width: max(32vw, 235px);
-    border: none;
-    background-color: black;
-    color: white;
+    border: 4px solid black;
+    box-shadow: 0 3px 0 0 black;
+    background-color: rgb(112, 158, 34);
+    font-weight: bold;
+    color: rgb(37, 56, 5);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border: 3px solid black;
+    box-shadow: none;
 }
 
 h1 {
